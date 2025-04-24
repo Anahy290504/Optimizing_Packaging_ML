@@ -1,0 +1,16 @@
+name: package_size_prediction_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pandas=1.5.3
+  - numpy=1.23.5
+  - matplotlib=3.7.1
+  - seaborn=0.12.2
+  - scikit-learn=1.2.2
+  - catboost=1.2
+  - tensorflow=2.13.0
+  - imbalanced-learn=0.10.1
+  - notebook=6.5.4
+  - jupyterlab=4.0.5
